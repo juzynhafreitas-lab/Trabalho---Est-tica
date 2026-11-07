@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Estética | Sobre nós</title>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff8fb;
+            color: #59434c;
+        }
+
+        header {
+            background: white;
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px #ead6df;
+        }
+
+        .logo {
+            color: #c66b8b;
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #59434c;
+        }
+
+        nav a:hover, nav a.ativo {
+            color: #cc7895;
+            font-weight: bold;
+        }
+
+        .sobre {
+            padding: 70px 10%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #b45e7d;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .sobre img {
+            width: 100%;
+            max-width: 750px;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .sobre p {
+            max-width: 800px;
+            margin: 15px auto;
+            line-height: 1.9;
+            font-size: 17px;
+        }
+
+        footer {
+            background: #b45e7d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 768px) {
+            header { flex-direction: column; gap: 20px; }
+            nav ul { flex-wrap: wrap; justify-content: center; gap: 15px; }
+            .sobre img { height: 240px; }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">BELLA ESTÉTICA</div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="sobre.html" class="ativo">Sobre nós</a></li>
+            <li><a href="diferenciais.html">Diferenciais</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="sobre">
+
+    <h1>Sobre a Bella Estética</h1>
+
+    <img
+        src="https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&w=1200&q=80"
+        alt="Interior de um espaço de beleza e estética">
+
+    <p>
+        A Bella Estética nasceu com o propósito de oferecer
+        um ambiente acolhedor, sofisticado e dedicado ao
+        autocuidado.
+    </p>
+
+    <p>
+        Acreditamos que cuidar da beleza também significa
+        cuidar da autoestima, do bem-estar e da qualidade
+        de vida.
+    </p>
+
+    <p>
+        Nosso compromisso é proporcionar momentos especiais,
+        com atenção, carinho e dedicação em cada atendimento.
+    </p>
+
+</main>s
+
+<footer>
+    <p>© 2026 Bella Estética - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
